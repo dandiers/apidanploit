@@ -1,7 +1,7 @@
 {
   "status": {
     "maintenance": false,
-    "expired": false,
-    "good": true
+    "expired": true,
+    "good": false 
   }
 }
