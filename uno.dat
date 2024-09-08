@@ -1,48 +1,5 @@
-#include <ESP8266WiFi.h>
 
-// Definisikan pin untuk lampu
-const int l1 = D1;
-const int l2 = D2;
-const int l3 = D3;
-const int l4 = D4;
-const int l5 = D5;
-const int l6 = D6;
-const int l7 = D7;
-const int l8 = D8;
-
-void setup() {
-  // Inisialisasi pin untuk lampu sebagai output
-  pinMode(l1, OUTPUT);
-  pinMode(l2, OUTPUT);
-  pinMode(l3, OUTPUT);
-  pinMode(l4, OUTPUT);
-  pinMode(l5, OUTPUT);
-  pinMode(l6, OUTPUT);
-  pinMode(l7, OUTPUT);
-  pinMode(l8, OUTPUT);
-}
-
-void loop() {
-  // Nyalakan lampu dari l1 sampai l8 secara bersamaan
-  digitalWrite(l1, HIGH);
-  digitalWrite(l2, HIGH);
-  digitalWrite(l3, HIGH);
-  digitalWrite(l4, HIGH);
-  digitalWrite(l5, HIGH);
-  digitalWrite(l6, HIGH);
-  digitalWrite(l7, HIGH);
-  digitalWrite(l8, HIGH);
-  
-  // Tunda selama 1 detik
-  delay(1000);
-  
-  // Matikan lampu dari l1 sampai l8 secara bersamaan
-  digitalWrite(l1, LOW);
-  digitalWrite(l2, LOW);
-  digitalWrite(l3, LOW);
-  digitalWrite(l4, LOW);
-  digitalWrite(l5, LOW);
-  digitalWrite(l6, LOW);
-  digitalWrite(l7, LOW);
-  digitalWrite(l8, LOW);
-}
+            maintenance
+            guys
+            dm @mrd4nd2
+            
